@@ -1,0 +1,9 @@
+# ninja log v6
+8	1031	7474200042983568	CMakeFiles/untitled.dir/_1ProgrammingBasicsWithCPP/_1FirstStepsInCoding/_1Lab/_02Nums1To10.cpp.obj	a91fdad15dfd19c1
+8	900	7474193433218305	CMakeFiles/untitled.dir/_1ProgrammingBasicsWithCPP/_1FirstStepsInCoding/_1Lab/_01HelloSoftUni.cpp.obj	2ce2b6f6bcd2dc24
+8	75	7474192135322881	CMakeFiles/untitled.dir/main.cpp.obj	25b0d9bb14175c64
+2	332	7474271769311595	build.ninja	68a11373479f7537
+702	828	7474256324052072	untitled.exe	ffcea26aa98327fd
+14	1042	7474200043042966	CMakeFiles/untitled.dir/_1ProgrammingBasicsWithCPP/_1FirstStepsInCoding/_1Lab/_03RectangleArea.cpp.obj	d504d6c916719366
+18	701	7474256317206828	CMakeFiles/untitled.dir/_1ProgrammingBasicsWithCPP/_1FirstStepsInCoding/_1Lab/_05GreetingByName.cpp.obj	699dc353d2c5f1af
+2	733	7474254046966884	CMakeFiles/untitled.dir/_1ProgrammingBasicsWithCPP/_1FirstStepsInCoding/_1Lab/_04InchesToCentimeters.cpp.obj	872e39d3a0a23927

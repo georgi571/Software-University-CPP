@@ -1,0 +1,3 @@
+D:/SoftwareUniversity/Software-University-CPP/cmake-build-debug/CMakeFiles/untitled.dir
+D:/SoftwareUniversity/Software-University-CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/SoftwareUniversity/Software-University-CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
