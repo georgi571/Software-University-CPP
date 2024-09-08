@@ -243,6 +243,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+Project_BINARY_DIR:STATIC=D:/SoftwareUniversity/Software-University-CPP/cmake-build-debug
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=D:/SoftwareUniversity/Software-University-CPP
+
+//Value Computed by CMake
 Software-University-CPP_BINARY_DIR:STATIC=D:/SoftwareUniversity/Software-University-CPP/cmake-build-debug
 
 //Value Computed by CMake

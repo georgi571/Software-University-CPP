@@ -6,7 +6,7 @@ int main() {
     double radians;
     cin >> radians;
 
-    double degrees = radians * 180 / 3.14;
+    double degrees = radians * 180 / M_PI;
     cout << round(degrees) << endl;
     return 0;
 }

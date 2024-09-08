@@ -5,7 +5,9 @@ int main() {
     double usd;
     cin >> usd;
 
-    double bgn = usd * 1.79549;
+    double exchangeRate = 1.79549;
+
+    double bgn = usd * exchangeRate;
 
     cout.setf(ios::fixed);
     cout.precision(2);

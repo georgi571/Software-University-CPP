@@ -3,6 +3,12 @@
 using namespace std;
 
 int main() {
+    const double priceForNylon = 1.50;
+    const double priceForPaint = 14.50;
+    const double priceForPaintThinner = 5.00;
+    const double priceForBags = 0.40;
+    const double percentForWorkerHourWork = 0.30;
+
     int nylon;
     cin >> nylon;
 
@@ -15,12 +21,12 @@ int main() {
     int hours;
     cin >> hours;
 
-    double sumForNylon = (nylon + 2) * 1.50;
-    double sumForPaint = (paint * 1.10) * 14.50;
-    double sumForPaintThinner = paintThinner * 5.00;
+    double sumForNylon = (nylon + 2) * priceForNylon;
+    double sumForPaint = (paint * 1.10) * priceForPaint;
+    double sumForPaintThinner = paintThinner * priceForPaintThinner;
 
-    double sumForMaterials = sumForNylon + sumForPaint + sumForPaintThinner + 0.40;
-    double pricePerHourWork = sumForMaterials * 0.30;
+    double sumForMaterials = sumForNylon + sumForPaint + sumForPaintThinner + priceForBags;
+    double pricePerHourWork = sumForMaterials * percentForWorkerHourWork;
 
     double sumForWorkers = hours * pricePerHourWork;
     double totalSum = sumForMaterials + sumForWorkers;

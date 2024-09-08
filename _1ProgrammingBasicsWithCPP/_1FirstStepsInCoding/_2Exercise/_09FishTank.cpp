@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+    const double converterFromCmToDm = 0.001;
+
     int lengthInCm;
     cin >> lengthInCm;
 
@@ -15,7 +17,7 @@ int main() {
     cin >> percent;
 
     double volumeForAquarium = lengthInCm * widthInCm * heightInCm;
-    double volumeInLiters = volumeForAquarium * 0.001;
+    double volumeInLiters = volumeForAquarium * converterFromCmToDm;
     double occupiedSpace = volumeInLiters * (percent / 100.0);
     double neededLiters = volumeInLiters - occupiedSpace;
 
