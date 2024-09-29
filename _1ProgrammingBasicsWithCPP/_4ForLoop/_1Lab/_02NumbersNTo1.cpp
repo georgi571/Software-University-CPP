@@ -2,7 +2,10 @@
 using namespace std;
 
 int main() {
-    for (int i = 1; i <= 100; i++) {
+    int n;
+    cin >> n;
+
+    for (int i = n; i >= 1; i--) {
         cout << i << endl;
     }
     return 0;
