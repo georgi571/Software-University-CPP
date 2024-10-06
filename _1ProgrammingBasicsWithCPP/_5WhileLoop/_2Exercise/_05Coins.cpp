@@ -30,4 +30,6 @@ int main() {
     }
 
     cout << numberOfCoins << endl;
+
+    return 0;
 }
