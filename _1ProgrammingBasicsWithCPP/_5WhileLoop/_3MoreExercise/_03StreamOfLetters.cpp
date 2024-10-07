@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    string leter;
-    cin >> leter;
+    string letter;
+    cin >> letter;
 
     int counterForC = 0;
     int counterForO = 0;
@@ -11,8 +11,8 @@ int main() {
 
     string word = "";
 
-    while (leter != "End") {
-        char character = leter.at(0);
+    while (letter != "End") {
+        char character = letter.at(0);
 
         if (isalpha(character)) {
             if (character != 'c' && character != 'o' && character != 'n') {
@@ -48,7 +48,7 @@ int main() {
             }
         }
 
-        cin >> leter;
+        cin >> letter;
     }
 
     return 0;
