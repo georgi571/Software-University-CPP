@@ -12,7 +12,7 @@ int main() {
     int yearsOld = 18;
 
     double leftAmount = amount;
-    for (int i = 1800; i <= years; ++i) {
+    for (int i = 1800; i <= years; i++) {
         if (i % 2 == 0) {
             leftAmount -= 12000;
         } else {
