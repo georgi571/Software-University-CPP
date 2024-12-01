@@ -1,3 +1,20 @@
-//
-// Created by Gamer on 10/6/2024.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cin >> number;
+
+    int sum = 0;
+
+    while (sum < number) {
+        int input;
+        cin >> input;
+
+        sum += input;
+    }
+
+    cout << sum << endl;
+
+    return 0;
+}
