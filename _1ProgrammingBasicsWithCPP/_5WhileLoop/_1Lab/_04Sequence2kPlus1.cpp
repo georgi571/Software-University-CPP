@@ -1,3 +1,18 @@
-//
-// Created by Gamer on 10/6/2024.
-//
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cin >> number;
+
+    int k = 1;
+
+    while (k <= number) {
+        cout << k << endl;
+
+        k = (k * 2) + 1;
+    }
+
+
+    return 0;
+}
