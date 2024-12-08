@@ -1,9 +1,5 @@
-#include <algorithm>
 #include <iostream>
 #include <sstream>
-#include <vector>
-#include <climits>
-#include <iterator>
 using namespace std;
 
 int main() {
